@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Minha página</title>
+
+  <meta charset="UTF-9">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Minha página</title>
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-          <img src="img/logo.jpg" width="50" height="50">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Quem somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Parceiros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Serviços</a>
-            </li>            
-          </ul>          
-        </div>
-      </nav>
 
-      <section id="quem-somos">
-        <div class="container-fluid quem-somos text-center">
-          <h3 class="margin">Quem somos</h3>
-          <img src="img/time.jpg" class="rounded-circle" width="400px" height="400px">
-          <h4 class="margin">Somos comprometidos com seu resultado!</h4>
-        </div>
-      </section>
+  <nav class="navbar navbar-expand-lg navbar-light">
 
-    
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.jpg" width="50" height="50">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quem-somos">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#parceiros">Parceiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <section id="quem-somos">
+    <div class="container-fluid text-center margin quem-somos">
+      <h3>Quem somos</h3>
+      <div class="container margin">
+        <img src="img/time.jpg" class="rounded-circle margin" width="400px" height="400px">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="parceiros">
+    <div class="container-fluid text-center margin parceiros">
+      <h3>Parceiros</h3>
+      <div class="container margin">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/logo.jpg" width="90%" height="90%">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/logo.jpg" width="90%" height="90%">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/logo.jpg" width="90%" height="90%">
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container-fluid text-center margin servicos">
+      <h3>Serviços</h3>
+      <div class="container margin">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/site1.jpg" class="margin" width="75%" height="75%">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/site2.jpg" class="margin" width="75%" height="75%">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/app.jpg" class="margin" width="75%" height="75%">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid text-center margin bg-footer">
+    <p>Desenvolvido por XXX</p>
+  </footer>
+
 </body>
+
 </html>
